@@ -1,11 +1,14 @@
 package lectures.part2oop
 
+import exercises.part2oop.Counter
+
 object OOBasics extends App
 {
     val person = new Person("Phteven", 5)
     println(person.age)
     person.greet("Phtephanie")
     person.greet()
+
 }
 
 // class parameters are not class properties
